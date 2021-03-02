@@ -7,6 +7,15 @@
     android:orientation="vertical"
     tools:context=".ListFragmentActivity">
 
+    <com.tpmn.this_is_android.CustomDateView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        app:delimeter=":"
+        android:text="20210302"
+        />
+
     <FrameLayout
         android:id="@+id/container"
         android:layout_width="match_parent"
